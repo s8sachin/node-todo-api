@@ -39,5 +39,5 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (err, db) => {
     console.log(JSON.stringify(result.ops[0]._id.getTimestamp()));
   })
 
-  db.close();
+  db.close(); // only to create operation
 });

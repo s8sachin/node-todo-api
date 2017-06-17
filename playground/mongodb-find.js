@@ -33,7 +33,7 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (err, db) => {
     console.log("Unable to fetch todos", err);
   });
 
-  // db.close();  //not used for find or delete
+  // db.close();  //not used for find or delete or update
 });
 
 // query to find todos with false  // db.collection('todos').find({completed: false}).toArray().then((docs) => {

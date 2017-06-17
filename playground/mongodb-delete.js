@@ -34,5 +34,5 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (err, db) => {
     console.log(res);
   });
 
-  // db.close();  //not used for find or delete
+  // db.close();  //not used for find or delete or update
 });
