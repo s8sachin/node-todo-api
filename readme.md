@@ -4,6 +4,7 @@ Packages used here:
 3. body-parser
 4. lodash
 5. validator
+6. bcryptjs
 
 Test
 1. expect
